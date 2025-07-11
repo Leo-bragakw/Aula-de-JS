@@ -1,16 +1,14 @@
-// String (armazena texto)
+// Template literals (template string, interpolação de string)
 let username = "Leonardo"
-console.log (username)
-console.log (typeof username)
+let email = "leo@hotmail.com"
 
-console.log ("uma string com aspas")
-console.log ('uma sting com apóstrofo (aspas simples)')
+// é possivel agrupar os parametros no console.log
+console.log (username, email)
 
-// Quando utilizar aspas simples ou composta.
-console.log ('uma string com "aspas duplas" dentro de simples')
-console.log ("uma string com 'aspas simples' dentro de dupla")
+// Concatenação de texto
+let message =  "olá," + username +". você conectou com o email " + email
 
-// Outro tipo de string utilizando ` acento grave (é possivel utilizar para fazer quebra de linhas).
-console.log (`
-    uma string com acento grave permite escrever múltiplas linhas
-    `)
+ console.log (message)
+
+ // Template literals
+ console.log (`olá, ${username}. Você conectou o email ${email}.`)
