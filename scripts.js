@@ -1,12 +1,10 @@
-/* 
-quando uma linguagem de pragamação é case-sensitive significa que ela é sensivel a letras maiusculas e minúsculas.
+// Declarar uma variável sem valor.
+let user
+console.log ("Leonardo")
 
-EX: "Leonardo" é considerado diferente de "leonardo".
-*/
+// Declarar uma variável com valor.
+let email = "Leozinho"
+console.log(email)
 
-
-var product = "Teclado Mecânico"
-var Product = "Mouse Gamer"
-
-console.log(product)
-console.log(Product)
+email = "Braga"
+console.log(email)
