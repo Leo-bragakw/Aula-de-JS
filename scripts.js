@@ -1,7 +1,7 @@
-// Boolean
-console.log (true)
-console.log (false)
+// underfined (indefinido)
+let emptiness
+console.log ("o valor é:", emptiness)
 
-let isLoading = true
-console.log (isLoading)
-console.log  (typeof isLoading)
+// Null
+let empty = null
+console.log ("O valor é: ", empty)
