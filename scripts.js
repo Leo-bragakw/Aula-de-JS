@@ -1,12 +1,12 @@
-// declaração de variável sem valor.
-var user
+/* 
+quando uma linguagem de pragamação é case-sensitive significa que ela é sensivel a letras maiusculas e minúsculas.
 
-console.log(user)
+EX: "Leonardo" é considerado diferente de "leonardo".
+*/
 
-//declaração de variável com valor.
-var email = "leo@hotmail.com"
-console.log(email)
 
-//substituição do valar de uma variável.
-email = "clarencio@hotmail.com"
-console.log(email)
+var product = "Teclado Mecânico"
+var Product = "Mouse Gamer"
+
+console.log(product)
+console.log(Product)
