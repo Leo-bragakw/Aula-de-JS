@@ -1,14 +1,14 @@
-// Template literals (template string, interpolação de string)
-let username = "Leonardo"
-let email = "leo@hotmail.com"
+// Number
+console.log (typeof 5)
 
-// é possivel agrupar os parametros no console.log
-console.log (username, email)
+//Inteiro positivo
+console.log (5)
+console.log ("5")
 
-// Concatenação de texto
-let message =  "olá," + username +". você conectou com o email " + email
+//Inteiro Negativo
+console.log (-5)
 
- console.log (message)
-
- // Template literals
- console.log (`olá, ${username}. Você conectou o email ${email}.`)
+// Números reais ou float.
+console.log (7.5)
+//obs: a utilização de "," é entendida como numeros separados por conta disso se usa o "."
+console.log (12.5 / "Leo")
