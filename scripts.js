@@ -1,38 +1,36 @@
-// Escopo é a "região" onde a variavel se encontra (gloal, em bloco ou afins).
-// console.log(user)
-// var user = "leonardo"
+//case-sensitive
+let username = "Leonardo"
+let userName = "Braga"
 
-// Hoisting
-// var user
-// console.log(user)
+console.log (username)
+console.log (userName)
 
+//Podemos
+let $email = "leo@hotmail.com"
+let _email = "braga@hotmail.com"
+let ação = "pix" //não é recomendado a utilização de caracteres especiais para criar variaveis e nem escrever em pt.
+ 
+console.log ($email)
+console.log (_email)
+console.log (ação)
 
-// o var é sempre içado a um escopo global.
+//Não pode 
+// let 1bit = "cleitinho"
+// let product name = "xtudo" não funciona nume com espaço.
 
-// Escopo global
-var email = "leo@hotmail.com"
-{
-    // escobo de bloco
-    console.log(email)
-}
+// console.log(1bit) aparece uma mensagem de erro
 
-{
-    var age = 18
-}
+//Recomendações.
+// escrever os nomes em ingles.
+// Dar nomes as variaves que tenham a ver com oq ela vai guardar.
 
-console.log(age)
+// Recomendação camelCase (nomes compostos)
+let productName = "xtudo"
+console.log (productName)
 
+// Recomendação snake_case (escrita de nome composto com uso de anderline)
+let product_name = "x-egg"
+let first_name = "sarah"
 
-// o let respeita sempre o escopo em que foi criado e tambem sempre respeita a hierarquia
-//Ex:
-{
-    let think = "penso logo existo"
-}
-
-console.log(think) // aparece uma mensagem de erro.
-
-//Ex:
-let address = "rua piatã"
-{
-    console.log(address)
-}
+console.log (product_name)
+console.log (first_name)
