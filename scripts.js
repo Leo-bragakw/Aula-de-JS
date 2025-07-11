@@ -1,36 +1,16 @@
-//case-sensitive
+// String (armazena texto)
 let username = "Leonardo"
-let userName = "Braga"
-
 console.log (username)
-console.log (userName)
+console.log (typeof username)
 
-//Podemos
-let $email = "leo@hotmail.com"
-let _email = "braga@hotmail.com"
-let ação = "pix" //não é recomendado a utilização de caracteres especiais para criar variaveis e nem escrever em pt.
- 
-console.log ($email)
-console.log (_email)
-console.log (ação)
+console.log ("uma string com aspas")
+console.log ('uma sting com apóstrofo (aspas simples)')
 
-//Não pode 
-// let 1bit = "cleitinho"
-// let product name = "xtudo" não funciona nume com espaço.
+// Quando utilizar aspas simples ou composta.
+console.log ('uma string com "aspas duplas" dentro de simples')
+console.log ("uma string com 'aspas simples' dentro de dupla")
 
-// console.log(1bit) aparece uma mensagem de erro
-
-//Recomendações.
-// escrever os nomes em ingles.
-// Dar nomes as variaves que tenham a ver com oq ela vai guardar.
-
-// Recomendação camelCase (nomes compostos)
-let productName = "xtudo"
-console.log (productName)
-
-// Recomendação snake_case (escrita de nome composto com uso de anderline)
-let product_name = "x-egg"
-let first_name = "sarah"
-
-console.log (product_name)
-console.log (first_name)
+// Outro tipo de string utilizando ` acento grave (é possivel utilizar para fazer quebra de linhas).
+console.log (`
+    uma string com acento grave permite escrever múltiplas linhas
+    `)
